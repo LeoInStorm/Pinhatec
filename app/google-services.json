@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "948235158029",
+    "project_id": "pinhatec-d26c3",
+    "storage_bucket": "pinhatec-d26c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948235158029:android:b351d784a537dfb754cb44",
+        "android_client_info": {
+          "package_name": "com.example.pim"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6dM4jRZpve4luGtEuxjGqntw0xJ7ukNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

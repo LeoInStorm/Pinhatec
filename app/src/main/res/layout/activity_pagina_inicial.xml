@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    tools:context=".TelasPrincipais.PaginaInicial">
+
+    <ImageView
+        android:id="@+id/pinhatec_pag_inicial"
+        android:layout_width="331dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="30dp"
+        android:background="#CCCCCC"
+        android:contentDescription="PaginaInicial"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rodape_inicial"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/bthome"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#CCCCCC"
+        android:contentDescription="Home"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bthouse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText"
+        tools:src="@drawable/bthouse" />
+
+    <ImageButton
+        android:id="@+id/btrendimentos"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#CCCCCC"
+        android:contentDescription="Historico"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bthistoricos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bthome"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText"
+        tools:src="@drawable/bthistoricos" />
+
+    <ImageButton
+        android:id="@+id/btopc"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#CCCCCC"
+        android:contentDescription="Opcoes"
+        android:scaleType="centerCrop"
+        android:src="@drawable/btmenuopc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btrendimentos"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.487"
+        tools:ignore="HardcodedText"
+        tools:src="@drawable/btmenuopc" />
+
+    <ImageButton
+        android:id="@+id/btajuda"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#CCCCCC"
+        android:contentDescription="Ajuda"
+        android:scaleType="centerCrop"
+        android:src="@drawable/btmenuajuda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btopc"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482"
+        tools:ignore="HardcodedText"
+        tools:src="@drawable/btmenuajuda" />
+
+    <ImageButton
+        android:id="@+id/Btponto"
+        android:layout_width="156dp"
+        android:layout_height="91dp"
+        android:layout_marginBottom="45dp"
+        android:backgroundTint="#CCCCCC"
+        android:contentDescription="Botao bater ponto"
+        android:scaleType="centerCrop"
+        android:src="@drawable/btsbaterponto"
+        app:layout_constraintBottom_toTopOf="@+id/bthome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText"
+        tools:src="@drawable/btsbaterponto" />
+
+    <ImageView
+        android:id="@+id/ficha_usu"
+        android:layout_width="327dp"
+        android:layout_height="178dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349"
+        app:srcCompat="@drawable/ficha_usuario"
+        tools:srcCompat="@drawable/ficha_usuario" />
+
+    <TextView
+        android:id="@+id/Cargo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.446"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/cpnj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/NomeFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.334"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/icone_ficha"
+        android:layout_width="70dp"
+        android:layout_height="79dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ficha_usu"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="@+id/ficha_usu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366"
+        app:srcCompat="@drawable/ic_person"
+        tools:srcCompat="@drawable/ic_person" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

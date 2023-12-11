@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    tools:context=".TelasPrincipais.MenuAjuda">
+
+    <ImageView
+        android:id="@+id/Rdp_ajuda"
+        android:layout_width="331dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="30dp"
+        android:background="#CCCCCC"
+        android:contentDescription="Rodape de Ajuda"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rodape_ajuda"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/bthome"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#CCCCCC"
+        android:contentDescription="Home"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bthouse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/bthouse"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/btrendimentos"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#CCCCCC"
+        android:contentDescription="Historico"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bthistoricos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bthome"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/bthistoricos"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/btopc"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#CCCCCC"
+        android:contentDescription="Opcoes"
+        android:scaleType="centerCrop"
+        android:src="@drawable/btmenuopc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btrendimentos"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.487"
+        tools:src="@drawable/btmenuopc"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/btajuda"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#CCCCCC"
+        android:contentDescription="Ajuda"
+        android:scaleType="centerCrop"
+        android:src="@drawable/btmenuajuda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btopc"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482"
+        tools:src="@drawable/btmenuajuda"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/pdf1"
+        android:layout_width="331dp"
+        android:layout_height="130dp"
+        android:background="@drawable/darkeditbox"
+        android:contentDescription="pdf"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rdp_ajuda"
+        app:layout_constraintVertical_bias="0.105"
+        app:srcCompat="@drawable/btdf"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/pdf2"
+        android:layout_width="331dp"
+        android:layout_height="130dp"
+        android:background="@drawable/darkeditbox"
+        android:contentDescription="pdf"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rdp_ajuda"
+        app:layout_constraintVertical_bias="0.441"
+        app:srcCompat="@drawable/btdf"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/politica_priv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@android:drawable/stat_sys_download"
+        android:text="politica-de-privacidade.pdf"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/pdf1"
+        app:layout_constraintEnd_toEndOf="@+id/pdf1"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="@+id/pdf1"
+        app:layout_constraintTop_toTopOf="@+id/pdf1"
+        app:layout_constraintVertical_bias="0.486" />
+
+    <TextView
+        android:id="@+id/manual_usu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@android:drawable/stat_sys_download_done"
+        android:text="manual-do-usuario.pdf"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/pdf2"
+        app:layout_constraintEnd_toEndOf="@+id/pdf2"
+        app:layout_constraintHorizontal_bias="0.732"
+        app:layout_constraintStart_toStartOf="@+id/pdf2"
+        app:layout_constraintTop_toTopOf="@+id/pdf2"
+        app:layout_constraintVertical_bias="0.486" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

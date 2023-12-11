@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    tools:context=".menus.MenuDeCadastro">
+
+    <ImageView
+        android:id="@+id/MenuCadastro"
+        android:layout_width="331dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="menu de cadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rodape_cadastro"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/bthome"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#CCCCCC"
+        android:contentDescription="Home"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bthouse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/bthouse"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/btrendimentos"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#CCCCCC"
+        android:contentDescription="Historico"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bthistoricos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bthome"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/bthistoricos"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/btopc"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#CCCCCC"
+        android:contentDescription="Opcoes"
+        android:scaleType="centerCrop"
+        android:src="@drawable/btmenuopc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btrendimentos"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.487"
+        tools:src="@drawable/btmenuopc"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/btajuda"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#CCCCCC"
+        android:contentDescription="Ajuda"
+        android:scaleType="centerCrop"
+        android:src="@drawable/btmenuajuda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btopc"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482"
+        tools:src="@drawable/btmenuajuda"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/med_benef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMPRESA"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.322"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/odo_benef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CNPJ"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/vale_bene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADMISSÃO"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/text04"
+        android:layout_width="165dp"
+        android:layout_height="40dp"
+        android:background="@drawable/darkeditbox"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VR"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/VR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CARGO"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/VT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEPARTAMENTO"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/text05"
+        android:layout_width="331dp"
+        android:layout_height="40dp"
+        android:background="@drawable/darkeditbox"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VT"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/text01"
+        android:layout_width="331dp"
+        android:layout_height="40dp"
+        android:background="@drawable/darkeditbox"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/med_benef"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/text02"
+        android:layout_width="331dp"
+        android:layout_height="40dp"
+        android:background="@drawable/darkeditbox"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/odo_benef"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/text03"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:background="@drawable/darkeditbox"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/text04"
+        app:layout_constraintHorizontal_bias="0.345"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vale_bene"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
