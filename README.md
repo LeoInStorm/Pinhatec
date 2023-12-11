@@ -1,3 +1,6 @@
-<h1 align="center"> Pinhatec </h1>
-![Logo Pinhatec](https://github.com/LeoInStorm/Pinhatec/assets/143039352/7d831d92-5404-4109-9861-583d9a8be48e)
-<p align="center">Olá bem vindo ao meu projeto de aplicativo RH</p>
+<h1 align="center">Pinhatec</h1>
+
+<h2 align="center">Olá bem vindo ao meu projeto de aplicativo RH</h2>
+<p align="start">Esse aplicativo tem um objetivo didático e também é o meu primeiro projeto usando linguaguem nativa de Android o Java!</p>
+<p align="start">O aplicativo tem conexão com o banco de dados do FIREBASE e usa a autenticação que eu escolhi para o poder acessar </p>
+
